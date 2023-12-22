@@ -1,0 +1,89 @@
+
+
+.ad-block {
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 40px;
+
+  }
+  
+  .verified {
+    width: 33px;
+    height: 33px;
+    background-image: url(https://cdn.theathletic.com/cdn-cgi/image/width=1200,height=675,fit=cover/app/uploads/2022/07/26013333/tjFXgn1EZBcF_tjFXgn1EZBcF_5OTBFEAqWoLN_original_1440x960.jpg);
+    background-size: cover;
+    margin-left: 11px;
+    border-radius: 23px;
+  }
+  
+  .images {
+    /* margin-top: 20px; */
+  }
+  
+  .images img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .like-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .like-section .button {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1px ;
+    margin-left: 240px;
+  }
+  
+  .edit-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .edit-section button {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-box {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-box.selected {
+    border: 2px solid #0d6efd; /* Blue border for selected box */
+  }
+  
+  .tick {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #0d6efd;
+    font-size: 15px; /* Larger tick size */
+  }
+  

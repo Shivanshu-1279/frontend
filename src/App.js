@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Campaign from "./Components/Campaign";
+// import Sidebar from "./Components/sidebar/Sidebar";
+import NewCamp from './Components/NewCamp'
+import Product from './Components/Product'
+import Setting from './Components/Setting'
+import Ready from './Components/Ready'
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Campaign} />
+        <Route path="/newCamp" component={NewCamp} />
+        <Route path="/chooseProd" component={Product} />
+        <Route path="/campSetting" component={Setting} />
+        <Route path="/ready" component={Ready} />
+
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;

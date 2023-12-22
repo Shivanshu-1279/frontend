@@ -1,0 +1,21 @@
+
+.create{
+  background-color: #0d6efd;
+  
+}
+.create:hover{
+  background-color: lightskyblue;
+}
+
+/* Add the following styles to increase font size in the table and improve separation */
+table {
+  font-size: px;
+}
+
+/* Style for the campaign image and text */
+img {
+  margin-right: 10px;
+}
+
+/* Add more styling if needed */
+
